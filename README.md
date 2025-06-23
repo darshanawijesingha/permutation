@@ -1,56 +1,36 @@
-📐 Permutation Calculator in Java
-A basic Java console application that calculates the permutation (nPr) of given numbers using user input.
+# 📐 Permutation Calculator (nPr) – Java Console Application
 
-📌 Description
-This program asks the user to:
+This is a simple Java program that calculates permutations using the formula:
 
-Enter the total number of terms (n)
-
-Enter the number of selections (r)
-
-Then it calculates the permutation using the formula:
-
-ini
-Copy
-Edit
 nPr = n! / (n - r)!
-🚀 How to Run
-Save the Java code (e.g., PermutationCalculator.java)
 
-Compile the program:
 
-bash
-Copy
-Edit
-javac PermutationCalculator.java
-Run the program:
+It takes user input for the total number of terms (`n`) and the number of selected terms (`r`), then calculates and displays the result.
 
-bash
-Copy
-Edit
-java PermutationCalculator
-Sample Input/Output:
+---
 
-yaml
-Copy
-Edit
+## 💻 How It Works
+
+1. Prompts the user to enter the total number of terms (`n`)
+2. Prompts the user to enter the number of selections (`r`)
+3. Calculates the permutation (nPr)
+4. Displays the result
+
+### 📥 Sample Console Input:
 enter the terms :
 5
 enter the selection :
 3
 Permutation (nPr) = 60
-🧠 Formula Used
-ini
-Copy
-Edit
-nPr = n! / (n - r)!
-Where:
 
-n = total items
 
-r = selected items
 
-✅ Requirements
-Java 8 or above
+---
 
-A basic terminal or command line
+
+
+
+
+
+
+
